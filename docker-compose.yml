@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: shiyun-poetry
+    ports:
+      - "5234:80"
+    restart: unless-stopped
